@@ -11,6 +11,15 @@ export default defineNuxtConfig({
             '@juggle/resize-observer'
         ]
     },
+    pwa: {
+        manifest: {
+            name: 'My Awesome App',
+            lang: 'de',
+        }
+    },
+    modules: [
+        '@kevinmarrec/nuxt-pwa'
+    ],
     vite: {
         optimizeDeps: {
             include: ['date-fns-tz/esm/formatInTimeZone']

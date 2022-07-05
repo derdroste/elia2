@@ -34,6 +34,10 @@
 
 <script setup>
 import { NButton } from 'naive-ui'
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  console.log('installable')
+});
 </script>
 
 <style scoped>
