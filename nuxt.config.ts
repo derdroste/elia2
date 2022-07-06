@@ -15,6 +15,9 @@ export default defineNuxtConfig({
         manifest: {
             name: 'My Awesome App',
             lang: 'de',
+        },
+        workbox: {
+            enabled: true
         }
     },
     modules: [

@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import AppLayout from '../components/AppLayout'
+import AppLayout from '../components/app/AppLayout'
 import {NConfigProvider, darkTheme} from 'naive-ui'
 </script>
 
