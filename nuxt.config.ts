@@ -27,5 +27,10 @@ export default defineNuxtConfig({
         optimizeDeps: {
             include: ['date-fns-tz/esm/formatInTimeZone']
         }
-    }
+    },
+    nitro: {
+        plugins: [
+            "~/server/index.ts",
+        ]
+    },
 })

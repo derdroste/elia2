@@ -38,8 +38,8 @@ import { NButton } from 'naive-ui'
 window.addEventListener('beforeinstallprompt', (e) => {
   console.log('installable')
 });
-window.addEventListener('click', (e) => {
-  console.log('installablevv')
+window.addEventListener('click', async (e) => {
+  console.log(await $fetch('/api/user'))
 });
 </script>
 
